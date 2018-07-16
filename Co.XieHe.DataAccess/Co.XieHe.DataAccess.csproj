@@ -63,7 +63,7 @@
       <Project>{c39ff08b-f058-443b-b48c-2cdc758d2dac}</Project>
       <Name>Co.XieHe.Model</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Utility\Co.XieHe.Utility.csproj">
+    <ProjectReference Include="..\Co.XieHe.Utility\Co.XieHe.Utility.csproj">
       <Project>{08e687b0-6a28-48af-bbd7-f8c7cc884f4d}</Project>
       <Name>Co.XieHe.Utility</Name>
     </ProjectReference>

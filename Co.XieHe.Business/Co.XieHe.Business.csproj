@@ -30,6 +30,12 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
     <Reference Include="Newtonsoft.Json, Version=11.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <HintPath>..\packages\Newtonsoft.Json.11.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
     </Reference>
@@ -54,7 +60,7 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Co.DataAccess\Co.XieHe.DataAccess.csproj">
+    <ProjectReference Include="..\Co.XieHe.DataAccess\Co.XieHe.DataAccess.csproj">
       <Project>{8e0c9a41-c25a-4dd3-8a3f-ab79b616956f}</Project>
       <Name>Co.XieHe.DataAccess</Name>
     </ProjectReference>
@@ -62,7 +68,7 @@
       <Project>{C39FF08B-F058-443B-B48C-2CDC758D2DAC}</Project>
       <Name>Co.XieHe.Model</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Utility\Co.XieHe.Utility.csproj">
+    <ProjectReference Include="..\Co.XieHe.Utility\Co.XieHe.Utility.csproj">
       <Project>{08e687b0-6a28-48af-bbd7-f8c7cc884f4d}</Project>
       <Name>Co.XieHe.Utility</Name>
     </ProjectReference>

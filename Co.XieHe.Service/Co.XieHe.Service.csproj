@@ -44,6 +44,12 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=1.0.7.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.7\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
     </Reference>
@@ -116,7 +122,7 @@
       <Project>{C39FF08B-F058-443B-B48C-2CDC758D2DAC}</Project>
       <Name>Co.XieHe.Model</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Utility\Co.XieHe.Utility.csproj">
+    <ProjectReference Include="..\Co.XieHe.Utility\Co.XieHe.Utility.csproj">
       <Project>{08e687b0-6a28-48af-bbd7-f8c7cc884f4d}</Project>
       <Name>Co.XieHe.Utility</Name>
     </ProjectReference>

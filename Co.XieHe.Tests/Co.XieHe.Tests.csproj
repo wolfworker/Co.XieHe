@@ -64,9 +64,17 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Co.XieHe\Co.XieHe.Service.csproj">
-      <Project>{825E32F5-540E-4217-AFED-F873069369C0}</Project>
+    <ProjectReference Include="..\Co.XieHe.Model\Co.XieHe.Model.csproj">
+      <Project>{c39ff08b-f058-443b-b48c-2cdc758d2dac}</Project>
+      <Name>Co.XieHe.Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Co.XieHe.Service\Co.XieHe.Service.csproj">
+      <Project>{825e32f5-540e-4217-afed-f873069369c0}</Project>
       <Name>Co.XieHe.Service</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Co.XieHe.Utility\Co.XieHe.Utility.csproj">
+      <Project>{08e687b0-6a28-48af-bbd7-f8c7cc884f4d}</Project>
+      <Name>Co.XieHe.Utility</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -124,7 +124,7 @@ namespace Co.XieHe.Business
                     LogLevel = level,
                     LogContent = logContent
                 };
-                Add(debugLog);
+                commonDal.Add(debugLog);
             }
             catch (Exception ex)
             {
