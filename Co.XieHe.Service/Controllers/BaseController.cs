@@ -8,6 +8,7 @@ using System.Data.SqlClient;
 using System.Linq;
 using System.Net;
 using System.Net.Http;
+using System.Security.Cryptography;
 using System.Text;
 using System.Web.Http;
 
@@ -48,6 +49,12 @@ namespace Co.XieHe.Service.Controllers
             }
             HttpResponseMessage result = new HttpResponseMessage { Content = new StringContent(str, Encoding.GetEncoding("UTF-8"), "application/json") };
             return result;
+        }
+
+        public void ConvertBaseRequest(BaseRequest request)
+        {
+            request.Host = Request.Headers.Host;
+            request.UserAgent = Request.Headers.UserAgent.ToString();
         }
     }
 }

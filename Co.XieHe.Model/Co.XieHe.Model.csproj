@@ -47,6 +47,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DBEntity\SYS_RequestLog.cs" />
+    <Compile Include="DBEntity\POT_UserPointLog.cs" />
+    <Compile Include="DBEntity\ACT_VerifyLog.cs" />
+    <Compile Include="DBEntity\ACT_InviteLog.cs" />
+    <Compile Include="DBEntity\ACT_AuthentifyInfo.cs" />
     <Compile Include="DBEntity\CommonEntity.cs" />
     <Compile Include="DBEntity\SYS_DebugLog.cs" />
     <Compile Include="BizModels\EnumModel.cs" />
